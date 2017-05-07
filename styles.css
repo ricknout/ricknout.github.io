@@ -106,8 +106,9 @@ html, body {
             justify-content: center;
 }
 
-.nick-rout section > .section__play-btn {
+.nick-rout section > .section__me {
     min-height: 200px;
+    max-height: 300px;
 }
 
 .nick-rout section .section__circle {
@@ -162,13 +163,12 @@ html, body {
 }
 
 .me {
-    width: 100%;
+    min-height:100%;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 40% 60%;
     border-radius: 2px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 40% 60%;
-    background-image: url("images/me.jpg");
 }
 
 .app_icon {
