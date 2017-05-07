@@ -109,7 +109,6 @@ html, body {
 .nick-rout section > .section__me {
     min-height: 200px;
     max-height: 300px;
-    object-fit: cover;
 }
 
 .nick-rout section .section__circle {
@@ -167,7 +166,6 @@ html, body {
     min-height:100%;
     height: 100%;
     width: 100%;
-    min-width: 100%;
     object-fit: cover;
     object-position: 40% 60%;
     border-radius: 2px;
