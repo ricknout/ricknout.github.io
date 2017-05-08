@@ -180,6 +180,10 @@ html, body {
     background-position: 50% 50%;
 }
 
+.app_icon:hover {
+    opacity: 0.7;
+}
+
 .luno {
     background-image: url("images/luno.png");
 }
