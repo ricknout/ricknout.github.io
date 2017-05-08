@@ -243,6 +243,10 @@ a.fill-div {
     background-image: url('images/twitter.svg');
 }
 
+.social-btn__instagram {
+    background-image: url('images/instagram.svg');
+}
+
 .social-btn__email {
     background-image: url('images/email.svg');
 }
