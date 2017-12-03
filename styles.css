@@ -184,6 +184,10 @@ html, body {
     opacity: 0.7;
 }
 
+.over {
+    background-image: url("images/over.png");
+}
+
 .luno {
     background-image: url("images/luno.png");
 }
