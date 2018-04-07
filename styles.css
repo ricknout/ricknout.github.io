@@ -255,6 +255,10 @@ a.fill-div {
     background-image: url('images/instagram.svg');
 }
 
+.social-btn__medium {
+    background-image: url('images/medium.svg');
+}
+
 .social-btn__email {
     background-image: url('images/email.svg');
 }
