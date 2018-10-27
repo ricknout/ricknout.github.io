@@ -200,6 +200,10 @@ html, body {
     background-image: url("images/shortstories.png");
 }
 
+.rugby_ranker {
+    background-image: url("images/rugby_ranker.png");
+}
+
 a.fill-div {
     display: block;
     height: 100%;
