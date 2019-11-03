@@ -97,8 +97,6 @@ img:hover {
     margin-bottom: 24px;
     float: right;
     border-radius: 50%;
-    filter: drop-shadow(0px 1px 2px #666666);
-    -webkit-filter: drop-shadow(0px 1px 2px #666666);
 }
 
 .profile-icon:hover {
