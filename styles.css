@@ -5,6 +5,15 @@
     --link-color: #2962FF;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #212121;
+        --text-color-primary: #FFFFFF;
+        --text-color-secondary: #A6A6A6;
+        --link-color: #96A4FE;
+    }
+}
+
 html {
     background: var(--background-color);
 }
