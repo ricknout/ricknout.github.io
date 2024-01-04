@@ -1,16 +1,16 @@
 :root {
     --background-color: #FFFFFF;
-    --text-color-primary: #212121;
-    --text-color-secondary: #666666;
-    --link-color: #2962FF;
+    --text-color-primary: #000000;
+    --text-color-secondary: #8B8680;
+    --link-color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #212121;
+        --background-color: #000000;
         --text-color-primary: #FFFFFF;
-        --text-color-secondary: #A6A6A6;
-        --link-color: #96A4FE;
+        --text-color-secondary: #8B8680;
+        --link-color: #FFFFFF;
     }
 }
 
@@ -19,84 +19,37 @@ html {
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: -0.01em;
     max-width: 640px;
     margin-left: 32px;
     margin-top: 64px;
     margin-right: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
+    color: var(--text-color-primary);
+}
+
+secondary {
+    color: var(--text-color-secondary);
 }
 
 h1 {
-    font-size: 3.25rem;
+    font-size: 4.5rem;
+    line-height: 0rem;
     font-weight: 400;
-    color: var(--text-color-primary);
-}
-
-h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--text-color-primary);
-    padding-bottom: 4px;
-}
-
-h3 {
-    font-size: 1.875rem;
-    font-weight: 500;
-    color: var(--text-color-primary);
-    padding-top: 32px;
-    border-top: 2px dashed;
-}
-
-p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: var(--text-color-secondary);
-    padding-bottom: 8px;
-}
-
-ul {
-    padding-bottom: 8px;
-}
-
-li {
-    font-size: 1.375rem;
-    font-weight: 400;
-    color: var(--text-color-secondary);
+    letter-spacing: -0.035em;
 }
 
 a {
     color: var(--link-color);
+    transition: 0.5s;
+    
 }
 
 a:hover {
-    opacity: 0.7;
-}
-
-img:hover {
-    opacity: 0.7;
-}
-
-.app-icon {
-    width: 96px;
-    height: 96px;
-    margin-left: 32px;
-    margin-bottom: 32px;
-    float: right;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 64px;
-}
-
-.footer-icon {
-    width: 32px;
-    height: 32px;
-    margin-right: 32px;
+    color: var(--text-color-secondary);
+    transition: 0.5s;
 }
 
 .profile-icon {
@@ -106,8 +59,4 @@ img:hover {
     margin-bottom: 24px;
     float: right;
     border-radius: 50%;
-}
-
-.profile-icon:hover {
-    opacity: 1.0;
 }
