@@ -53,10 +53,11 @@ a:hover {
 }
 
 .profile-icon {
-    width: 144px;
-    height: 144px;
-    margin-left: 24px;
-    margin-bottom: 24px;
+    width: 128px;
+    height: 128px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 16px;
     float: right;
     border-radius: 50%;
 }
