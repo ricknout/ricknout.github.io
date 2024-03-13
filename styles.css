@@ -19,9 +19,12 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1.5rem;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.01em;
     max-width: 640px;
     margin-left: 32px;
     margin-top: 64px;
@@ -37,8 +40,8 @@ secondary {
 h1 {
     font-size: 4.5rem;
     line-height: 0rem;
-    font-weight: 400;
-    letter-spacing: -0.035em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
 }
 
 a {
