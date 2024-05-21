@@ -85,7 +85,7 @@ a:hover {
     height: 40px;
     display: inline-block;
     background-color: var(--color-content);
-    mask: url(images/Google.svg) no-repeat 50% 50%;
+    mask: url(images/google.svg) no-repeat 50% 50%;
     -webkit-mask: url(images/google.svg) no-repeat 50% 50%;
     mask-size: cover;
     -webkit-mask-size: cover;
@@ -103,7 +103,7 @@ a:hover {
     height: 40px;
     display: inline-block;
     background-color: var(--color-content);
-    mask: url(images/GoDaddy.svg) no-repeat 50% 50%;
+    mask: url(images/godaddy.svg) no-repeat 50% 50%;
     -webkit-mask: url(images/godaddy.svg) no-repeat 50% 50%;
     mask-size: cover;
     -webkit-mask-size: cover;
