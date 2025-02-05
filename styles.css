@@ -46,15 +46,8 @@ body {
 }
 
 .subheading {
-    font-family: "EB Garamond", serif;
-    font-weight: 500;
-    font-size: var(--font-size);
-    margin-top: var(--spacing);
-}
-
-.areas {
     font-family: "Syne", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: var(--font-size);
     margin-top: var(--spacing);
 }
