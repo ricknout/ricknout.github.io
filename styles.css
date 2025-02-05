@@ -73,6 +73,24 @@ a:hover {
     margin-left: 0;
 }
 
+.thrif {
+    width: 106px;
+    height: 40px;
+    display: inline-block;
+    background-color: var(--color-content);
+    mask: url(images/thrif.svg) no-repeat 50% 50%;
+    -webkit-mask: url(images/thrif.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .thrif {
+        width: 66px;
+        height: 25px;
+    }
+}
+
 .google {
     width: 122px;
     height: 40px;
