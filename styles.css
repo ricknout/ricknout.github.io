@@ -47,7 +47,7 @@ body {
 
 .subheading {
     font-family: "Syne", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: var(--font-size);
     margin-top: var(--spacing);
 }
